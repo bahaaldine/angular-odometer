@@ -1,4 +1,4 @@
-/*! angular-odometer - v0.0.2 - 2014-06-26
+/*! angular-odometer - v0.0.3 - 2014-10-11
 * Copyright (c) 2014 ; Licensed  */
 'use strict';
 
@@ -15,7 +15,8 @@ ngOdometer.directive('ngOdometer', function () {
       //  parameters. In this case I am going with the defaults.
       var od = new Odometer({
           el : element[0],
-          value : 0   // default value
+          value : 0,   // default value
+          format: '( ddd).dd'   // default value
       });
       // update the odometer element when there is a 
       // change in the model value.
