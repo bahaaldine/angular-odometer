@@ -1,4 +1,4 @@
-/*! angular-odometer - v0.0.5 - 2014-10-17
+/*! angular-odometer - v0.0.7 - 2014-10-17
 * Copyright (c) 2014 ; Licensed  */
 'use strict';
 
@@ -16,7 +16,7 @@ ngOdometer.directive('ngOdometer', function () {
       var od = new Odometer({
           el : element[0],
           value : 0,   // default value
-          format: '( ddd).dddd'   // default value
+          format: '( ddd).dd'   // default value
       });
       // update the odometer element when there is a 
       // change in the model value.
