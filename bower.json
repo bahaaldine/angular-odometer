@@ -1,6 +1,6 @@
 {
     "name": "angular-odometer",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "dist/angular-odometer.js",
     "license": "MIT",
     "authors": [
