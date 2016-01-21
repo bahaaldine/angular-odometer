@@ -1,6 +1,7 @@
 {
   "name": "angular-odometer",
   "author": "Bahaaldine AZARMI <bahaaldine@gmail.com>, Balakrishnan V K",
+  "main": "./lib/angular-odometer.js",
   "version": "0.0.9",
   "engines": {
     "node": ">= 0.10.0"
